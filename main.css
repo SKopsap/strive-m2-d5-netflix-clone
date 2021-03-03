@@ -16,3 +16,32 @@ header .overlay {
 .navbar {
   background-color: rgba(0.25, 0.25, 0.25, 0.5) !important;
 }
+#video-warpper {
+  height: 100%;
+}
+
+#video-wrapper > div::after {
+  content: ' ';
+  position: absolute;
+  height: 100px;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20) 15%,
+    rgba(97, 97, 97, 0) 100%
+  );
+}
+
+/* #video-wrapper > div::before {
+  content: ' ';
+  position: absolute;
+  height: 200px;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgb(17, 17, 17) 0%,
+    rgba(12, 12, 12, 0) 100%
+  );
+} */
