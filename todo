@@ -1,0 +1,28 @@
+FEATURES:
+
+/ Create a backoffice page for inserting, editing and removing movies
+/ Every movie will have a category
+/ On the main page you should create, programmatically, a number of “lists” equal to the number of categories you have created
+
+Endpoint: GET https://striveschool-api.herokuapp.com/api/movies/ 
+
+EXTRA FEATURES:
+
+/ Add form validation in the backoffice page
+
+/ Show loading indicators on the main page while waiting for the info from the APIs
+
+Ex:
+[
+    {
+        "_id": "5d3598a3a38caa57a0272d33", //SERVER GENERATED
+        "name": "Random drama movie",
+        "description": "A description of the movie",
+        "category": "drama",
+        "imageUrl": "https://bit.ly/3bVHHZ4",
+        "userId": "admin",  //SERVER GENERATED
+        "createdAt": "2019-07-22T11:06:11.784Z",  //SERVER GENERATED
+        "updatedAt": "2019-07-22T11:06:11.784Z",  //SERVER GENERATED
+        "__v": 0  //SERVER GENERATED
+    }
+]
